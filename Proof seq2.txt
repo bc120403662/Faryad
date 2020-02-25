@@ -1,0 +1,27 @@
+1.Proof Sequences
+skeep
+inst 1 “e”
+skeep
+grind-real 1
+mult-by -1, e*y
+mult-by -2 “e”
+grind
+2. Proof Sequences of Integers
+1 -1 -2
+2 -1 3 -1 4 -1 -2
+1 -1 -2 
+5 -1 3 -1 -2
+6 -1 10 -1 4 -1 7 -1 -2
+6 -1 8 -1 4 -1 -2
+9 -1 -2
+3. Assumed Items
+@ITEM=1=skeep
+@ITEM=2=inst
+@ITEM=3=1
+@ITEM=4=e
+@ITEM=5=grindreal
+@ITEM=6=multby
+@ITEM=7=y
+@ITEM=8=-2
+@ITEM=9=grind
+@item=10= -1
